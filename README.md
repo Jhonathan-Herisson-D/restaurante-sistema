@@ -45,7 +45,7 @@ Contribuições ou sugestões são bem-vindas para aprimorar o sistema!
 
 Aqui está um exemplo do programa em execução:
 
-![Execução do Programa](assets/Sistema.2.png)
+![Execução do Programa](assets/Sistema-2.png)
 
 Na imagem acima, é possível ver como o sistema registra vendas e exibe o resumo do dia.
 
