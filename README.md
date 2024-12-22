@@ -33,7 +33,7 @@ restaurante-sistema/
 
 Este projeto está em evolução e, ao longo do tempo, pretende incorporar novas funcionalidades:
 
-- [ ] Adicionar persistência de dados (salvar vendas em arquivo ou banco de dados).
+- [x] Adicionar persistência de dados (salvar vendas em arquivo ou banco de dados).
 - [ ] Criar relatórios detalhados de vendas (lucro, itens mais vendidos, etc.).
 - [ ] Desenvolver uma interface gráfica para facilitar o uso.
 - [ ] Implementar autenticação de usuários para acesso ao sistema.
