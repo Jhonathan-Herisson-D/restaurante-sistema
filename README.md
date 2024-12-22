@@ -40,3 +40,12 @@ Este projeto está em evolução e, ao longo do tempo, pretende incorporar novas
 - [ ] Adicionar exportação de relatórios em formato PDF.
 
 Contribuições ou sugestões são bem-vindas para aprimorar o sistema!
+
+## Exemplo de Funcionamento
+
+Aqui está um exemplo do programa em execução:
+
+![Execução do Programa](assets/Sistema.2.png)
+
+Na imagem acima, é possível ver como o sistema registra vendas e exibe o resumo do dia.
+
