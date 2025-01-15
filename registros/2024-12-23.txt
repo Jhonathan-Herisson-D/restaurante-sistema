@@ -1,0 +1,8 @@
+Marmitas: 3
+Pratos Feitos: 0
+Refrigerantes: 0
+Sucos: 0
+Salgados: 0
+Mistos: 0
+Pães de Queijo: 0
+Doces: 0

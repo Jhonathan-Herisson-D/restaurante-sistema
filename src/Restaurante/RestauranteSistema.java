@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.time.LocalDate;
 import java.util.Scanner;
 
-/**
+/*
  * Sistema de Gerenciamento do Restaurante
  * Este sistema permite:
  * - Registrar vendas diárias.
@@ -200,14 +200,20 @@ public class RestauranteSistema {
 			}
 		}
 		
-		/**
+		/*
 		 * Consulta vendas registradas para uma data específica
 		 */
 		public static void consultarVendasPorData() {
 			Scanner scan = new Scanner(System.in);
 			System.out.println("Digite a data no formato AAAA-MM-DD para consultar vendas: ");
 			String data = scan.nextLine();
-			String nomeArquivo = data + ".txt";
+			String nomeArquivo = "registros/" + data + ".txt";
+			
+			File arquivo = new File(nomeArquivo);
+			if (!arquivo.exists()) {
+				System.out.println("Nenhum registro encontrado para a data" + data);
+				return;
+			}
 			
 			try (BufferedReader reader = new BufferedReader(new FileReader(nomeArquivo))) {
 				String linha;
@@ -220,7 +226,7 @@ public class RestauranteSistema {
 			}
 		}
 		
-		 /**
+		 /*
 	     * Gera um resumo consolidado das vendas para um mês específico.
 	     */
 		public static void gerarResumoMensal(String mes) {
